@@ -20,34 +20,36 @@ Edutainment is a SwiftUI-based educational app designed to help users practice m
 ### Installation
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/OmPreetham/Edutainment.git
-    ```
+   ```bash
+   git clone https://github.com/OmPreetham/Edutainment.git
+   ```
 2. **Open the Project**:
-    Navigate to the project directory and open `Edutainment.xcodeproj` in Xcode.
-    ```bash
-    cd edutainment
-    open Edutainment.xcodeproj
-    ```
+   Navigate to the project directory and open `Edutainment.xcodeproj` in Xcode.
+   ```bash
+   cd edutainment
+   open Edutainment.xcodeproj
+   ```
 3. **Run the App**:
-    Select the target device or simulator and click the run button in Xcode.
+   Select the target device or simulator and click the run button in Xcode.
 
 ## Usage
 
 1. **Welcome Screen**:
-    - Select the multiplication table you want to practice using the stepper.
-    - Choose the number of questions you want to answer using the segmented picker.
-    - Press the "Generate Questions" button to start the quiz.
+
+   - Select the multiplication table you want to practice using the stepper.
+   - Choose the number of questions you want to answer using the segmented picker.
+   - Press the "Generate Questions" button to start the quiz.
 
 2. **Answer Questions**:
-    - A multiplication question will be displayed.
-    - Enter your answer in the text field and press "Submit Answer".
-    - You will receive feedback on whether your answer is correct or incorrect.
-    - Proceed to the next question or end the game based on your choice.
+
+   - A multiplication question will be displayed.
+   - Enter your answer in the text field and press "Submit Answer".
+   - You will receive feedback on whether your answer is correct or incorrect.
+   - Proceed to the next question or end the game based on your choice.
 
 3. **End of Game**:
-    - At the end of the session, your score will be displayed along with the total number of questions answered.
-    - Press "New Game" to start a new session.
+   - At the end of the session, your score will be displayed along with the total number of questions answered.
+   - Press "New Game" to start a new session.
 
 ## Code Structure
 
@@ -56,13 +58,12 @@ Edutainment is a SwiftUI-based educational app designed to help users practice m
 - **Functions**:
   - `generateQuestion()`: Generates a new multiplication question.
   - `answerQuestion()`: Checks the user's answer and updates the score.
- 
-## Screenshots 
 
-![edutainment](.screenshots/edutainment.png)
-![start](.screenshots/start.png)
-![questions](.screenshots/questions.png)
-![check](.screenshots/check.png)
+## Screenshots
+
+![edutainment](./screenshots/edutainment.png)
+![questions](./screenshots/questions.png)
+![check](./screenshots/check.png)
 
 ## Contributions
 
